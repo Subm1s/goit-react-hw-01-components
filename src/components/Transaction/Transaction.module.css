@@ -1,0 +1,35 @@
+.transactionHistory {
+    margin: 15px auto;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .header {
+    background-color: blue;
+  }
+  .header > tr {
+    height: 55px;
+    color: #fff;
+  }
+  
+  .tableColumn {
+    width: 400px;
+    border: 1px solid gray;
+  }
+  
+  .tableRow {
+    height: 55px;
+    color: grey;
+    text-align: center;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .tableRow:nth-child(2n) {
+    background-color: rgb(198, 204, 211);
+  }
+  
+  .tableRow > td {
+    border: 1px solid gray;
+    text-transform: uppercase;
+  }
